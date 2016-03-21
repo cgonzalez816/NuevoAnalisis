@@ -5,7 +5,8 @@
  */
 package analisis;
 
-import Gato.Gato;
+import Users.Users;
+import javax.swing.JFrame;
 
 /**
  *
@@ -18,30 +19,12 @@ public class Analisis {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //Prueba 
-          java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Gato().setVisible(true);
-            }
-        });
-    }
-    private Object[][] TABLERO;
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    // End of variables declaration//GEN-END:variables
-    void Reiniciar()
-    {
-        int Contador = 0;
-    	for(int i=0;i<3;i++)
-        {
-            for(int j=0;j<3;j++)
-            {
-                TABLERO[i][j].A.setIcon(null);
-                TABLERO[i][j].B=0;
-                TABLERO[i][j].A.addActionListener(this);
-            }
-        }
-    }
-    
+
+  Users F = new Users();
+  F.setVisible (true); 
+        
+        
 }
 
-    
+}
+
