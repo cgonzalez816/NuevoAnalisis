@@ -5,12 +5,17 @@
  */
 package Juego;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author treznor
  */
-public class Juego extends javax.swing.JFrame {
+public class Juego extends javax.swing.JFrame implements ActionListener {
 
+    
+    
     /**
      * Creates new form Juego
      */
@@ -194,4 +199,9 @@ public class Juego extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
