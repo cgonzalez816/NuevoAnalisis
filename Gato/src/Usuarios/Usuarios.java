@@ -124,64 +124,31 @@ public class Usuarios extends javax.swing.JFrame {
 
     private void jMenu3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu3MouseClicked
         // TODO add your handling code here:
-        
         String A; 
         String B;
-        String C;
-                
+        
                 A = JOptionPane.showInputDialog(" Digite el Usuarios X ");
                 B = JOptionPane.showInputDialog(" Digite el Usuarios 0 ");
-                
                 JugadorX.setText(A);
                 Jugador0.setText(B);
-        
-                C=JOptionPane.showInputDialog ( " Do you have at least an eighth tank of gas? yes or no " );
+              Juego J = new Juego();
+              J.setVisible(true);
 
-                
-              
-                   if (C == "yes"){
-
-           
-                
-              Usuarios U = new Usuarios();
-              U.setVisible(true);
-
-                          } else {
-              
-
-         System.exit(0);            
-                          }
                 
     }//GEN-LAST:event_jMenu3MouseClicked
 
     private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu3ActionPerformed
         // TODO add your handling code here:
-               String A; 
+        String A; 
         String B;
-        String C;
                 
                 A = JOptionPane.showInputDialog(" Digite el Usuarios X ");
                 B = JOptionPane.showInputDialog(" Digite el Usuarios 0 ");
-                
                 JugadorX.setText(A);
                 Jugador0.setText(B);
-        
-                C=JOptionPane.showInputDialog ( " Do you have at least an eighth tank of gas? yes or no " );
+              Juego J = new Juego();
+              J.setVisible(true);
 
-                
-              
-                   if (C == "yes"){
-
-           
-                
-              Usuarios U = new Usuarios();
-              U.setVisible(true);
-
-                          } else {
-              
-
-         System.exit(0);            
-                          }
     }//GEN-LAST:event_jMenu3ActionPerformed
 
     /**
