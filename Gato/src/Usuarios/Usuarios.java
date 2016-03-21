@@ -5,6 +5,7 @@
  */
 package Usuarios;
 
+import Juego.Juego;
 import javax.swing.JOptionPane;
 
 /**
@@ -60,6 +61,11 @@ public class Usuarios extends javax.swing.JFrame {
         jMenu3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenu3MouseClicked(evt);
+            }
+        });
+        jMenu3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenu3ActionPerformed(evt);
             }
         });
         VerUsuarios.add(jMenu3);
@@ -121,14 +127,62 @@ public class Usuarios extends javax.swing.JFrame {
         
         String A; 
         String B;
-        
+        String C;
+                
                 A = JOptionPane.showInputDialog(" Digite el Usuarios X ");
                 B = JOptionPane.showInputDialog(" Digite el Usuarios 0 ");
                 
                 JugadorX.setText(A);
                 Jugador0.setText(B);
         
+                C=JOptionPane.showInputDialog ( " Do you have at least an eighth tank of gas? yes or no " );
+
+                
+              
+                   if (C == "yes"){
+
+           
+                
+              Usuarios U = new Usuarios();
+              U.setVisible(true);
+
+                          } else {
+              
+
+         System.exit(0);            
+                          }
+                
     }//GEN-LAST:event_jMenu3MouseClicked
+
+    private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu3ActionPerformed
+        // TODO add your handling code here:
+               String A; 
+        String B;
+        String C;
+                
+                A = JOptionPane.showInputDialog(" Digite el Usuarios X ");
+                B = JOptionPane.showInputDialog(" Digite el Usuarios 0 ");
+                
+                JugadorX.setText(A);
+                Jugador0.setText(B);
+        
+                C=JOptionPane.showInputDialog ( " Do you have at least an eighth tank of gas? yes or no " );
+
+                
+              
+                   if (C == "yes"){
+
+           
+                
+              Usuarios U = new Usuarios();
+              U.setVisible(true);
+
+                          } else {
+              
+
+         System.exit(0);            
+                          }
+    }//GEN-LAST:event_jMenu3ActionPerformed
 
     /**
      * @param args the command line arguments
