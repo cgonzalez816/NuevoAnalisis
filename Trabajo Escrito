@@ -1,0 +1,179 @@
+UNIVERSIDAD CATÓLICA DE COSTA RICA
+
+CURSO: ANÁALISIS Y DISEÑO DE ARCHIVOS
+
+PROYECTO FINAL  
+JUEGO GE GATO 
+(PROBLEMA DE SIMULACIÓN DE BAJA COMPLEJIDAD CON SALIDA DE DATOS DE TEXTO)
+
+PROFESOR
+ING. Y LIC. ANDRÉS JIMÉNES LEANDRO
+
+SUSTENTANTES
+JOSÉ APABLO MARÍN SOLÍS
+CEZAR GONZÁLEZ
+
+
+
+
+
+SEDE SAN CARLOS
+ABRIL, 2016
+Resumen ejecutivo
+Trabajo de simulación gráfica de un “juego de gato”, que requiere de conocimientos básicos en orientación a objetos, entrada y salida de datos, operaciones aritméticas, paso de parámetros y estructuras del control del flujo de programas en un ambiente gráfico, programado en lenguaje Java, y programado en la aplicación NetBeans IDE 8.0.2..
+El respaldo de los datos y las partidas se hace con la ayuda de base de datos PostGree SQL 9.5.0 enlazada a NetBeans.
+Todo el material que comprende el desarrollo del trabajo programado está basado en los aprendizajes obtenidos en el curso de Análisis y Diseño de archivos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Objetivos
+Objetivo general 
+Revelar las estrategias de planificación utilizadas en el diseño y programación de un juego de gato, haciendo uso de los conocimientos aprendidos en el curso Análisis y Diseño de Archivos, de la Universidad Católica, Sede San Carlos, durante el primer cuatrimestre del año 2016.
+Objetivos específicos
+Implementar un modelo grafico de java con programación orientada a objetos. 
+Explicar las diferentes opciones programadas para el uso de la aplicación de gato, así como los códigos implementados.
+Describir las funcionalidades de las opciones de la aplicación desarrollada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Descripción
+El diseño del proyecto está orientado a poner en práctica los conocimientos adquiridos al curso de Análisis y Diseño de Archivos, así como al lenguaje de programación java y un reto adicional que implica el uso de una base de datos para guardar información de la aplicación.
+La dificultad planteada para este ejercicio programado es un reto que implica iniciativa y originalidad en la resolución del problema así como el dominio de 
+El uso de programación a objetos, elementos del lenguaje java como las estructuras lineales (arreglos o arrays), listas en lazadas, flujos de control y la recursividad son algunos de los recursos del lenguaje a implementar, de modo que la aplicación que en este caso corresponde a un “juego de gato” o también conocido como “tres en línea” . 
+Según señala Blanco, T, (2003) Para jugar como jugábamos, menciona “El tres en línea, también conocido como Ceros y Cruces”, “es un juego de lápiz y papel entre dos jugadores: O y X, que marcan los espacios de un tablero de 3×3 alternadamente. Un jugador gana si consigue tener una línea de tres de sus símbolos: la línea puede ser horizontal, vertical o diagonal.”
+Dicho juego debe constar de las siguientes posibles soluciones:
+Partida de tres en raya, ganada por X.
+Partida de tres en raya, ganada por X
+Partida que termina en empate
+Los jugadores no tardan en descubrir que el juego perfecto termina en empate sin importar con qué juega el primer jugador. Normalmente son los niños pequeños los que juegan al tres en raya: cuando ya han descubierto una estrategia imbatible se pasan a juegos más sofisticados, como el de puntos y cajas.
+
+
+La simplicidad del juego de tres en raya lo hace ideal como herramienta pedagógica para enseñar los conceptos de teoría de juegos y la rama de inteligencia artificial que se encarga de la búsqueda de árboles de juego. 
+En este caso, al no ser en papel sino de forma programada el reto se hace mayor ya que se debe añadir la posibilidad de guardar partidas inconclusas en una memoria de base de datos.
+Estos ingredientes hacen de este trabajo más que un reto, un verdadero aprendizaje en las posibilidades de implementación del lenguaje java.
+
+
+
+
+
+
+
+
+
+Justificación 
+El desarrollo de este proyecto programado se da por la necesidad de comprender con gran acierto, las distintas formas de programación que permite el lenguaje de java asociado a bases de datos.
+Como investigadores, los participantes de este trabajo tienen la gran oportunidad de fortalecer y enriquecer el conocimiento de este cuidadoso tema, así como la esperanza de aportar conclusiones y sugerencias aprendidas durante la elaboración de este trabajo.
+Este trabajo de investigación se verá retroalimentado con la puesta en práctica de los conocimientos aprendidos en el curso de Análisis de Archivos, y los resultados obtenidos al tener un producto acabado que plasme los objetivos planteados del proyecto.
+Costa Rica requiere de buenos profesionales en el área de informática y es en trabajos como este donde se comienzan a plantear retos para buscar soluciones prácticas por lo que es necesario el desarrollo de aplicaciones de baja dificultad para luego dar pasos a mayores retos, pero con bases sólidas como en este caso.
+ Para entender mejor los logros y expectativas que se esperan alcanzar en el presente trabajo, es importante conocer lo señalado  por Programming Language Popularity (2015), expresa: “Java es, a partir de 2012, uno de los lenguajes de programación más populares en uso, particularmente para aplicaciones de cliente-servidor de web, con unos 10 millones de usuarios reportados.”
+Todos esos factores serán observados y analizados para su puesta en práctica en la vida de cada uno de los sustentantes del trabajo de proyecto y formarán criterios sólido de pensamiento relacionado a la creación de archivos y aplicaciones.
+
+
+
+
+CAPITULO II: MARCO TEÓRICO
+Historia y definiciones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPITULO III: PROCEDIMIENTO METODOLÓGICO
+
+
+ 
+CAPITULO IV: ANALISIS E INTERPRETACION DE DATOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Referencias
+
+Blanco, T, Para jugar como jugábamos. 2003. ISBN 84-87339-44-1 Ed. John Wiley & sons
+
+Tomado el 15 de marzo de 2016 de: http://web.archive.org/web/20150829085248/http://langpop.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apéndice
